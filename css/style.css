@@ -5,3 +5,8 @@
 .btn-naranja{
     background-color: rgb(255, 69, 0);
 }
+
+.fondoSeccion{
+    background-image: url(./fondo1.png);
+
+}
