@@ -26,13 +26,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Pokedex</a>
+          <a class="navbar-brand" href="../index.html">Pokedex</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -50,7 +50,7 @@
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="./index.html"
+                  href="../index.html"
                   >Inicio</a
                 >
               </li>
@@ -114,29 +114,63 @@
       </div>
 
       <section
-        class="container border-danger border rounded-3 bg-danger-subtle my-3"
+        class="container border-danger border rounded-3 bg-danger-subtle"
       >
-        <article class="row w-100">
-          <h1 class="lead fs-1 text-danger text-center my-2">Charizard N°0006</h1>
+        <article class="row w-100 mx-2">
+          <h1 class="lead fs-1 text-danger text-center my-2">
+            Charizard N°0006
+          </h1>
           <div class="col-md-6">
+            <div class="bg-light">
             <img
               src="../img/charizardDetalle.png"
               alt="charizard"
               class="img-fluid"
             />
-            <p class="fw-semibold text-center">
+        </div>
+            <p class="fw-semibold fst-italic text-center mt-3 p-3">
               Escupe un fuego tan caliente que funde las rocas. Causa incendios
-              forestales sin querer.
+              forestales sin querer. Cuando se enfurece de verdad, la llama de la punta de su cola se vuelve de color azul claro.
             </p>
           </div>
-          <div class="col-md-6 border border-primary">
-            <div class="border border-black mb-3">
-              <p>fgdfg</p>
+          <article class="col-md-6 row">
+            <div class="border bg-primary rounded-2 mt-3">
+              <div class="p-2">
+                <h3 class="lead text-white">Altura:</h3>
+                <p class="fw-bold">1,7 m</p>
+                <h3 class="lead text-white">Peso:</h3>
+                <p class="fw-bold">90,5 Kg</p>
+                <h3 class="lead text-white">Sexo:</h3>
+                <p class="fw-bold">
+                  <i class="bi bi-gender-female"></i>
+                  <i class="bi bi-gender-male"></i>
+                </p>
+              </div>
+              <h3 class="lead text-white">Categoría</h3>
+              <p class="fw-bold">Llama</p>
+              <h3 class="lead text-white">Habilidad</h3>
+              <p class="fw-bold">Mar Llamas <i class="bi bi-question-circle-fill"></i> </p>
             </div>
-            <div class="border border-black">
-              <p>fgfgfg</p>
+            <div class="bg-secondary p-2 my-3">
+              <p class="lead fs-4 text-white">Tipo</p>
+              <button class="btn btn-warning rounded-pill text-white fw-bold">
+                Fuego
+              </button>
+              <button class="btn btn-primary rounded-pill text-white fw-bold">
+                Volador
+              </button>
+              <p class="lead fs-4 text-white">Debilidad</p>
+              <button class="btn btn-info rounded-pill text-white fw-bold">
+                Agua
+              </button>
+              <button class="btn btnTierra rounded-pill text-white fw-bold">
+                Tierra
+              </button>
+              <button class="btn btn-dark rounded-pill text-white fw-bold">
+                Roca
+              </button>
             </div>
-          </div>
+          </article>
         </article>
       </section>
     </main>
