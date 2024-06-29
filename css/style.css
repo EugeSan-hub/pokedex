@@ -1,3 +1,15 @@
+.btn-morado{
+    background-color: rgb(100, 16, 179);
+}
+
+.btn-naranja{
+    background-color: rgb(255, 69, 0);
+}
+
+.fondoSeccion{
+    background-image: url(./fondo1.png);
+
+}
 body {
     min-height: 100vh;
     display: flex;
@@ -6,6 +18,3 @@ body {
   main {
     flex-grow: 1;
   }
-  .imagenCarousel{
-    object-fit: cover;
-   }
