@@ -9,7 +9,7 @@
     />
     <meta
       name="author"
-      content="Julieta Wunsche, Eugenia Maria Sansierra, Leonardo Recalde, Jessica Olea"
+      content="Julieta Wunsche, Eugenia Maria Sansierra, Leonardo Recalde"
     />
     <meta
       name="keywords"
@@ -31,7 +31,7 @@
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
-            <div class="container-fluid">
+        <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">Pokedex</a>
           <button
             class="navbar-toggler"
@@ -47,7 +47,12 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -70,11 +75,16 @@
                   <li><a class="dropdown-item" href="#">Agua</a></li>
                   <li><a class="dropdown-item" href="#">Planta</a></li>
                 </ul>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./pages/sobreNosotros.html">Sobre Nosotros</a>
-                  </li>
               </li>
-             
+
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./pages/sobreNosotros.html"
+                  >Sobre Nosotros</a
+                >
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input
@@ -90,8 +100,73 @@
       </nav>
     </header>
     <main>
+      <section id="sliderPrincipal" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#sliderPrincipal"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/img seccion grilla/imagen1.png"
+              class="d-block w-100"
+              alt="Imagen de Squirtle, Pikachu, Charizard y Bulbasaur sonriendo"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/img seccion grilla/imagen2.png"
+              class="d-block w-100"
+              alt="Imagen de Charizard, Pikachu saltando y Bulbasaur"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/img seccion grilla/imagen3.png"
+              class="d-block w-100"
+              alt="Imagen de Ash con Pikachu en el hombro"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#sliderPrincipal"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#sliderPrincipal"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </section>
       <section class="container-fluid fondoSeccion">
-        <div class="border-bottom border-body-tertiary ps-5 mt-3">
+        <div class="border-bottom border-body-tertiary ps-md-5 pt-3">
           <h1 class="text-danger">RollingCode | <strong>Pokedex</strong></h1>
         </div>
         <article class="row">
@@ -111,7 +186,9 @@
                 <p class="card-text btn btn-morado rounded-pill text-light">
                   <b>Veneno</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -131,7 +208,9 @@
                 <p class="card-text btn btn-morado rounded-pill text-light">
                   <b>Veneno</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -151,7 +230,9 @@
                 <p class="card-text btn btn-morado rounded-pill text-light">
                   <b>Veneno</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -168,7 +249,9 @@
                 <p class="card-text btn btn-naranja rounded-pill text-light">
                   <b>Fuego</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -185,7 +268,9 @@
                 <p class="card-text btn btn-naranja rounded-pill text-light">
                   <b>Fuego</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -205,7 +290,9 @@
                 <p class="card-text btn btn-secondary rounded-pill text-light">
                   <b>Volador</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/detallePokemon.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -222,7 +309,9 @@
                 <p class="card-text btn btn-info rounded-pill text-light">
                   <b>Agua</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -239,7 +328,9 @@
                 <p class="card-text btn btn-info rounded-pill text-light">
                   <b>Agua</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -256,7 +347,9 @@
                 <p class="card-text btn btn-info rounded-pill text-light">
                   <b>Agua</b>
                 </p>
-                <a href="./pages/error404.html" class="btn btn-primary w-100">Ver detalle</a>
+                <a href="./pages/error404.html" class="btn btn-primary w-100"
+                  >Ver detalle</a
+                >
               </div>
             </div>
           </div>
@@ -266,11 +359,10 @@
     <footer class="container-fluid text-center bg-danger p-2">
       <p class="text-white fs-5">&copy;Todos los derechos reservados</p>
     </footer>
-        <script
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
   </body>
 </html>
-

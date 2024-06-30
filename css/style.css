@@ -22,3 +22,12 @@ body {
   .btnTierra {
     background-color: brown;
   }
+  .imagenCarousel{
+    object-fit: cover;
+   }
+@media all and (min-width:992px) and (max-width: 1400px){
+  .imagenCarousel{
+    height:200px ;
+    object-fit: cover;
+   }
+}
