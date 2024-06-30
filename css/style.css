@@ -1,33 +1,54 @@
-.btn-morado{
-    background-color: rgb(100, 16, 179);
+.btn-morado {
+  background-color: rgb(100, 16, 179);
 }
 
-.btn-naranja{
-    background-color: rgb(255, 69, 0);
+.btn-naranja {
+  background-color: rgb(255, 69, 0);
 }
 
-.fondoSeccion{
-    background-image: url(./fondo1.png);
-
+.fondoSeccion {
+  background-image: url(./fondo1.png);
 }
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  main {
-    flex-grow: 1;
-  }
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
 
-  .btnTierra {
-    background-color: brown;
+.btnTierra {
+  background-color: brown;
+}
+
+.imagenCarousel {
+  object-fit: cover;
+}
+
+.bg-imagen {
+  background-image: url(./fondo1.png);
+}
+
+.btn-volador {
+  background: rgb(215, 192, 202);
+  background: radial-gradient(
+    circle,
+    rgba(215, 192, 202, 1) 0%,
+    rgba(78, 80, 215, 1) 100%
+  );
+}
+
+.final {
+  display: flex;
+  justify-content: end;
+}
+
+
+
+@media all and (min-width: 992px) and (max-width: 1400px) {
+  .imagenCarousel {
+    height: 200px;
+    object-fit: cover;
   }
-  .imagenCarousel{
-    object-fit: cover;
-   }
-@media all and (min-width:992px) and (max-width: 1400px){
-  .imagenCarousel{
-    height:200px ;
-    object-fit: cover;
-   }
 }
