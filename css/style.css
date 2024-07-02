@@ -44,11 +44,9 @@ main {
   justify-content: end;
 }
 
-
-
-@media all and (min-width: 992px) and (max-width: 1400px) {
+@media all and (min-width: 992px) {
   .imagenCarousel {
-    height: 200px;
+    height: 500px;
     object-fit: cover;
   }
 }
