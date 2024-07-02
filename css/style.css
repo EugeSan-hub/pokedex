@@ -10,11 +10,77 @@
   background-image: url(./fondo1.png);
 }
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex-grow: 1;
+}
+
+.btnTierra {
+  background-color: brown;
+}
+
+.imagenCarousel {
+  object-fit: cover;
+}
+
+.bg-imagen {
+  background-image: url(./fondo1.png);
+}
+
+.btn-volador {
+  background: rgb(215, 192, 202);
+  background: radial-gradient(
+    circle,
+    rgba(215, 192, 202, 1) 0%,
+    rgba(78, 80, 215, 1) 100%
+  );
+}
+
+.final {
+  display: flex;
+  justify-content: end;
+}
+
+.cardEuge {
+  border: blueviolet;
+  max-width: 250px;
+  border-style: solid;
+}
+.bg-Violeta {
+  background-color: blueviolet;
+}
+.imgRadius {
+  border-radius: 50%;
+}
+
+.bannerNosotros {
+  height: 250px;
+  object-fit: cover;
+}
+.cardLeo {
+  border: rgb(165, 233, 165);
+  max-width: 250px;
+  border-style: solid;
+}
+.cardJuly {
+  border: aqua;
+  max-width: 250px;
+  border-style: solid;
+}
+
+.bg-Verde {
+  background-color: rgb(165, 233, 165);
+}
+.bg-Aqua {
+  background-color: aqua;
+}
+
+@media all and (min-width: 992px) {
+  .imagenCarousel {
+    height: 500px;
+    object-fit: cover;
   }
-  main {
-    flex-grow: 1;
-  }
-  
+}
