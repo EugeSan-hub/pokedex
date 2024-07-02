@@ -10,43 +10,11 @@
   background-image: url(./fondo1.png);
 }
 body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-main {
-  flex-grow: 1;
-}
-
-.btnTierra {
-  background-color: brown;
-}
-
-.imagenCarousel {
-  object-fit: cover;
-}
-
-.bg-imagen {
-  background-image: url(./fondo1.png);
-}
-
-.btn-volador {
-  background: rgb(215, 192, 202);
-  background: radial-gradient(
-    circle,
-    rgba(215, 192, 202, 1) 0%,
-    rgba(78, 80, 215, 1) 100%
-  );
-}
-
-.final {
-  display: flex;
-  justify-content: end;
-}
-
-@media all and (min-width: 992px) {
-  .imagenCarousel {
-    height: 500px;
-    object-fit: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
-}
+  main {
+    flex-grow: 1;
+  }
+  
