@@ -44,6 +44,38 @@ main {
   justify-content: end;
 }
 
+  .cardEuge{
+    border: blueviolet;
+    max-width: 250px;
+    border-style: solid;
+  }
+  .bg-Violeta{
+    background-color: blueviolet;
+  }
+  .imgRadius{
+    border-radius: 50%;
+  }
+ 
+  .bannerNosotros{
+    height: 250px;
+    object-fit: cover;
+  }
+  .cardLeo{
+    border: rgb(165, 233, 165);
+    max-width: 250px;
+    border-style: solid;
+  }
+  .cardJuly{
+    border: aqua;
+    max-width: 250px;
+    border-style: solid;
+  }
+.bg-Verde{
+  background-color: rgb(165, 233, 165);
+}
+.bg-Aqua{
+  background-color: aqua;
+}
 @media all and (min-width: 992px) {
   .imagenCarousel {
     height: 500px;
